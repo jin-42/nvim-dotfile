@@ -1,0 +1,10 @@
+set clipboard=unnamedplus
+
+call plug#begin()
+Plug 'https://github.com/preservim/nerdtree'
+call plug#end()
+
+nnoremap ` :NERDTreeToggle<CR>
+nnoremap ~ :term<CR>
+nnoremap <F2> :w<CR>
+nnoremap <F1> :wq<CR>
